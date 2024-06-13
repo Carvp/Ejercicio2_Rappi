@@ -1,0 +1,52 @@
+/*RESTABLECER MARGEN Y RELLENO*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+ 
+/*FONDO-PAGINA*/
+main{
+  background-image: url(img/fondo-flex.jpg) ;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-position: center;
+}
+/* ORGANIZACION CONTENIDO VERTICAL*/
+.content{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+
+
+}
+
+/* ESTABLECER TAMAÑO -IMAGEN*/
+ img{
+  width: 170;
+  height: 150px;
+ }
+
+ /*ESTABLECER DIRECCIÓN - FLEXBOX*/
+ .abajo{
+  display: flex;
+flex-direction: row;
+height: 50%;
+align-items: center;
+justify-content: space-between;
+ }
+ .bomb{
+   align-self: flex-end;
+ }
+ 
+ .arriba{
+display: flex;
+flex-direction: row;
+height: 50%;
+align-items: end;
+justify-content: space-around;
+
+ }
